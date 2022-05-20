@@ -150,28 +150,28 @@
 }
 
 .services-swiper-1 {
-    background-image: url(/img/swiper-1.png);
+    background-image: url(/evergreen/img/swiper-1.png);
 }
 .services-swiper-2 {
-    background-image: url(/img/swiper-2.png);
+    background-image: url(/evergreen/img/swiper-2.png);
 }
 .services-swiper-3 {
-    background-image: url(/img/swiper-3.png);
+    background-image: url(/evergreen/img/swiper-3.png);
 }
 .services-swiper-4 {
-    background-image: url(/img/swiper-4.png);
+    background-image: url(/evergreen/img/swiper-4.png);
 }
 .services-swiper-5 {
-    background-image: url(/img/swiper-5.png);
+    background-image: url(/evergreen/img/swiper-5.png);
 }
 .services-swiper-6 {
-    background-image: url(/img/swiper-6.png);
+    background-image: url(/evergreen/img/swiper-6.png);
 }
 .services-swiper-7 {
-    background-image: url(/img/swiper-7.png);
+    background-image: url(/evergreen/img/swiper-7.png);
 }
 .services-swiper-8 {
-    background-image: url(/img/swiper-8.png);
+    background-image: url(/evergreen/img/swiper-8.png);
 }
 
 .services-swiper-1, .services-swiper-2, .services-swiper-3, .services-swiper-4, .services-swiper-5, .services-swiper-6, .services-swiper-7, .services-swiper-8 {
@@ -271,13 +271,13 @@
 }
 
 .catalog {
-    background-image: url(/img/catalog.png);
+    background-image: url(/evergreen/img/catalog.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .events {
-    background-image: url(/img/events.png);
+    background-image: url(/evergreen/img/events.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
