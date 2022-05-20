@@ -1,0 +1,294 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.title {
+    margin: 0 0 15px 0;
+}
+
+.sub-title {
+    margin: 0 0 20px 0;
+}
+
+.title-hr {
+    width: 200px;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.title-hr {
+    margin: 0 0 75px 0;
+}
+
+.title-text {
+    text-align: center;
+    max-width: 945px;
+}
+
+#about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_title {
+    margin: 130px 0;
+}
+
+.about-img {
+    width: 83%;
+}
+
+.about-shadow {
+    position: absolute;
+    left: 0;
+    z-index: -2;
+}
+
+#why {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why_title {
+    margin: 190px 0 0 0;
+}
+
+.why_block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1560px;
+}
+
+.reason_block {
+    display: flex;
+    margin: 60px;
+}
+
+.reason-icon {
+    margin: 0 70px 0 0;
+}
+
+.reason-content {
+    max-width: 450px;
+}
+
+.reason-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    margin: 0 0 15px 0;
+}
+
+.why-shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -3;
+}
+
+#services {
+    position: relative;
+}
+
+.services_title {
+    margin: 170px 0 30px 0;
+}
+
+.services-swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 300px;
+    height: 900px;
+    padding: 50px;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    opacity: 40%;
+    transition: .1s linear;
+}
+
+.swiper-slide-active {
+    opacity: 100% !important;
+    transition: .1s linear;
+}
+
+.swiper-slide:hover {
+    opacity: 60%;
+    transition: .1s linear;
+    cursor: grab;
+}
+
+.swiper-slide:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.services-swiper-slide-active {
+    opacity: 90%;
+}
+
+.services-swiper-text {
+    color: var(--secondary);
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 340px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;  
+}
+
+.services-swiper-1 {
+    background-image: url(/img/swiper-1.png);
+}
+.services-swiper-2 {
+    background-image: url(/img/swiper-2.png);
+}
+.services-swiper-3 {
+    background-image: url(/img/swiper-3.png);
+}
+.services-swiper-4 {
+    background-image: url(/img/swiper-4.png);
+}
+.services-swiper-5 {
+    background-image: url(/img/swiper-5.png);
+}
+.services-swiper-6 {
+    background-image: url(/img/swiper-6.png);
+}
+.services-swiper-7 {
+    background-image: url(/img/swiper-7.png);
+}
+.services-swiper-8 {
+    background-image: url(/img/swiper-8.png);
+}
+
+.services-swiper-1, .services-swiper-2, .services-swiper-3, .services-swiper-4, .services-swiper-5, .services-swiper-6, .services-swiper-7, .services-swiper-8 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services-swiper-pagination {
+    margin: 120px 0 0 0;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background-color: #232323;
+    opacity: 20%;
+    margin: 0 10px;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 100%;
+}
+
+.services-shadow {
+    position: absolute;
+    top: 550px;
+    right: 0;
+    z-index: -3;
+}
+
+#reviews {
+
+}
+
+.reviews_title {
+    margin: 230px 0 30px 0;
+}
+
+.reviews-swiper {
+    width: 100%;
+    max-width: 1350px;
+}
+
+.reviews-swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+    opacity: 20%;
+    transition: .1s linear;
+    user-select: none;  
+}
+
+.reviews-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.hr-reviews {
+    width: 50px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: var(--primary);
+}
+
+.reviews-swiper-text {
+    text-align: center;
+}
+
+.reviews-swiper-pagination {
+    margin: 120px 0 0 0;
+}
+
+#buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 220px 0;
+}
+
+.buttons_block {
+    display: flex;
+    justify-content: center;
+    max-width: 708px;
+    width: 100%;
+    margin: 0 30px;
+    transition: .1s linear;
+}
+
+.buttons_block:hover {
+    opacity: 80%;
+    transition: .1s linear;
+}
+
+.catalog {
+    background-image: url(/img/catalog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events {
+    background-image: url(/img/events.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-page {
+    margin: 220px 0;
+}
+
+.buttons-shadow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -3;
+}

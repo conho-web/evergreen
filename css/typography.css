@@ -1,0 +1,47 @@
+body {
+    font-family: "Montserrat";
+}
+
+.h2-300 {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+.h2-600 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.main-400 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.main-500 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 33px;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 24px;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.8em;
+}
