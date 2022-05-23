@@ -13,6 +13,7 @@
     max-width: 480px;
     width: 100%;
     background-color: var(--secondary);
+    padding: 45px 0;
 }
 
 .btn {
@@ -22,7 +23,6 @@
     max-width: 386px;
     width: 100%;
     cursor: pointer;
-    margin: 45px 0;
 }
 
 .button-1, .button-2, .button-3 {
@@ -32,25 +32,26 @@
 }
 
 .button-1 {
-    background-image: url(/evergreen/img/button-1.png);
+    background-image: url(../img/button-1.png);
 }
 
 .button-2 {
-    background-image: url(/evergreen/img/button-2.png);
+    background-image: url(../img/button-2.png);
 }
 
 .button-3 {
-    background-image: url(/evergreen/img/button-3.png);
+    background-image: url(../img/button-3.png);
 }
 
 .btn-text {
     padding: 150px 0;
-    max-width: 260px;
     color: var(--secondary);
+    letter-spacing: 0px;
+    text-align: center;
 }
 
 #photoshoots {
-    padding: 0 0 150px 0;
+    padding: 0 0 280px 0;
 }
 
 .photoshoot {
@@ -58,7 +59,7 @@
     position: relative;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 0 130px 0;
+    margin: 0 0 10px 0;
 }
 
 .photo {

@@ -107,15 +107,17 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 300px;
+    min-width: 400px;
+    width: auto;
     height: 900px;
     padding: 50px;
     cursor: move;
     cursor: grab;
     cursor: -moz-grab;
     cursor: -webkit-grab;
-    opacity: 40%;
+    opacity: 60%;
     transition: .1s linear;
+    margin: 0 auto;
 }
 
 .swiper-slide-active {
@@ -124,7 +126,7 @@
 }
 
 .swiper-slide:hover {
-    opacity: 60%;
+    opacity: 100%;
     transition: .1s linear;
     cursor: grab;
 }
@@ -150,28 +152,28 @@
 }
 
 .services-swiper-1 {
-    background-image: url(/evergreen/img/swiper-1.png);
+    background-image: url(./img/swiper-1.png);
 }
 .services-swiper-2 {
-    background-image: url(/evergreen/img/swiper-2.png);
+    background-image: url(./img/swiper-2.png);
 }
 .services-swiper-3 {
-    background-image: url(/evergreen/img/swiper-3.png);
+    background-image: url(./img/swiper-3.png);
 }
 .services-swiper-4 {
-    background-image: url(/evergreen/img/swiper-4.png);
+    background-image: url(./img/swiper-4.png);
 }
 .services-swiper-5 {
-    background-image: url(/evergreen/img/swiper-5.png);
+    background-image: url(./img/swiper-5.png);
 }
 .services-swiper-6 {
-    background-image: url(/evergreen/img/swiper-6.png);
+    background-image: url(./img/swiper-6.png);
 }
 .services-swiper-7 {
-    background-image: url(/evergreen/img/swiper-7.png);
+    background-image: url(./img/swiper-7.png);
 }
 .services-swiper-8 {
-    background-image: url(/evergreen/img/swiper-8.png);
+    background-image: url(./img/swiper-8.png);
 }
 
 .services-swiper-1, .services-swiper-2, .services-swiper-3, .services-swiper-4, .services-swiper-5, .services-swiper-6, .services-swiper-7, .services-swiper-8 {
@@ -219,10 +221,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: auto;
     max-width: 350px;
-    opacity: 20%;
+    opacity: 60%;
     transition: .1s linear;
     user-select: none;  
+    margin: 0 auto;
 }
 
 .reviews-title {
@@ -271,13 +275,13 @@
 }
 
 .catalog {
-    background-image: url(/evergreen/img/catalog.png);
+    background-image: url(./img/catalog.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .events {
-    background-image: url(/evergreen/img/events.png);
+    background-image: url(./img/events.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -56,8 +56,8 @@ html {
 }
 
 .main-button:hover {
-    background-color: var(--primary);
-    border: 2px solid var(--primary);
+    background-color: var(--secondary);
+    color: var(--primary);
     transition: .1s linear;
 }
 
