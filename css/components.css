@@ -98,6 +98,10 @@ header {
     transition: .1s linear;
 }
 
+.header-link.active {
+    color: var(--secondary);
+}
+
 .header-link:hover {
     color: var(--secondary);
     transition: .1s linear;
@@ -216,6 +220,10 @@ footer {
     color: var(--secondary-50);
     transition: .1s linear;
     margin: 0 100px 0 0;
+}
+
+.footer-link.active {
+    color: var(--secondary);
 }
 
 .footer-link:hover {
