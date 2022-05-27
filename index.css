@@ -11,6 +11,8 @@
 
 .sub-title {
     margin: 0 0 20px 0;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .title-hr {
@@ -24,6 +26,7 @@
 }
 
 .title-text {
+    padding: 0 30px;
     text-align: center;
     max-width: 945px;
 }
@@ -44,6 +47,7 @@
 }
 
 .about-shadow {
+    width: 40%;
     position: absolute;
     left: 0;
     z-index: -2;
@@ -89,6 +93,7 @@
 }
 
 .why-shadow {
+    width: 35%;
     position: absolute;
     left: 0;
     top: 0;
@@ -295,4 +300,71 @@
     bottom: 0;
     right: 0;
     z-index: -3;
+}
+
+/* Adaptive */
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .services-swiper-slide {
+        height: 600px;
+    }
+    
+    .about-img {
+        width: 100%;
+    }
+
+    #buttons {
+        flex-direction: column;
+    }
+
+    .buttons_block {
+        margin: 0 0 30px 0;
+    }
+
+    .reason_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 80%;
+        margin: 40px auto;
+    }
+
+    .reason-icon {
+        margin: 0 auto;
+    }
+
+    .reason-title {
+        font-size: 24px;
+    }
+
+    .sub-title {
+        line-height: 150%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .reason-icon img {
+        width: 80px;
+    }
+
+    .reason-icon {
+        margin: 0 20px 0 0;
+    }
+
+    .reason-title {
+        font-size: 20px;
+    }
+
+    .reason_block {
+        max-width: 90%;
+    }
 }

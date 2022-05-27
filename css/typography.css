@@ -45,3 +45,15 @@ body {
     font-weight: 300;
     letter-spacing: 0.8em;
 }
+
+/* Adaptive */
+
+@media screen and (max-width: 768px) {
+    .h2-300, .h2-600 {
+        font-size: 32px;
+    }
+    
+    .main-400, .main-500 {
+        font-size: 18px;
+    }
+}
