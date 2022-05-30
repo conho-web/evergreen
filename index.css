@@ -313,7 +313,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-
+    .reviews-swiper-slide {
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 768px) {
