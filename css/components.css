@@ -201,6 +201,7 @@ footer {
 .footer_top_wrapper {
     width: 100%;
     max-width: 1500px;
+    margin: 0 auto;
 }
 
 .footer_top {
