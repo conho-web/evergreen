@@ -128,12 +128,6 @@
     transition: .1s linear;
 }
 
-.swiper-slide:hover {
-    transition: .1s linear;
-    cursor: grab;
-    filter: brightness(100%);
-}
-
 .swiper-slide:active {
     cursor: grabbing;
     cursor: -moz-grabbing;
@@ -151,42 +145,66 @@
     max-width: 340px;
     -moz-user-select: none;
     -khtml-user-select: none;
-    user-select: none;  
+    user-select: none;
+    z-index: 2;
 }
 
 .services-swiper-1 {
     background-image: url(./img/swiper-1.png);
 }
+
 .services-swiper-2 {
     background-image: url(./img/swiper-2.png);
 }
+
 .services-swiper-3 {
     background-image: url(./img/swiper-3.png);
 }
+
 .services-swiper-4 {
     background-image: url(./img/swiper-4.png);
 }
+
 .services-swiper-5 {
     background-image: url(./img/swiper-5.png);
 }
+
 .services-swiper-6 {
     background-image: url(./img/swiper-6.png);
 }
+
 .services-swiper-7 {
     background-image: url(./img/swiper-7.png);
 }
+
 .services-swiper-8 {
     background-image: url(./img/swiper-8.png);
 }
 
-.services-swiper-1, .services-swiper-2, .services-swiper-3, .services-swiper-4, .services-swiper-5, .services-swiper-6, .services-swiper-7, .services-swiper-8 {
+.services-swiper-1,
+.services-swiper-2,
+.services-swiper-3,
+.services-swiper-4,
+.services-swiper-5,
+.services-swiper-6,
+.services-swiper-7,
+.services-swiper-8 {
     background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(50%);
 }
 
-.swiper-slide-active {
-    filter: brightness(100%);
+.swiper-slide-active .cover {
+    background: rgba(0, 0, 0, 0);
+    transition: all .2s linear;
+}
+
+.cover {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .services-swiper-pagination {
@@ -212,9 +230,7 @@
     z-index: -3;
 }
 
-#reviews {
-
-}
+#reviews {}
 
 .reviews_title {
     margin: 230px 0 30px 0;
@@ -233,7 +249,7 @@
     max-width: 350px;
     opacity: 80%;
     transition: .1s linear;
-    user-select: none;  
+    user-select: none;
     margin: 0 auto;
     filter: brightness(50%);
 }
@@ -321,9 +337,7 @@
 
 /* Adaptive */
 
-@media screen and (max-width: 1280px) {
-
-}
+@media screen and (max-width: 1280px) {}
 
 @media screen and (max-width: 1024px) {
     .reviews-swiper-slide {
@@ -335,7 +349,7 @@
     .services-swiper-slide {
         height: 600px;
     }
-    
+
     .about-img {
         width: 100%;
     }
