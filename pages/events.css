@@ -1,3 +1,7 @@
+.p-title {
+    color: var(--secondary);
+}
+
 #articles {
     display: flex;
     flex-direction: column;
