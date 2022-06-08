@@ -26,18 +26,22 @@ buttons.forEach(btn => {
     btnAnimate.reverse();
     btn.addEventListener("mouseenter", () => btnAnimate.play());
     btn.addEventListener("mouseleave", () => btnAnimate.reverse());
-
-    btn.addEventListener('click', function (e) {
-        e.preventDefault()
-        
-        const blockID = btn.getAttribute('href');
-        
-        document.getElementById(blockID).scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        })
-    })
 });
+
+
+
+function filterElements(nameClass) {
+    let block = document.getElementById(`${nameClass}`);
+    let blocks = document.querySelectorAll(".photoshoot");
+
+    blocks.forEach(element => {
+        if (element.classList.contains("active")) {
+            element.classList.remove("active");
+        }
+    });
+
+    block.classList.add("active");
+}
 
 
 
