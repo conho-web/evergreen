@@ -1,4 +1,3 @@
-// Services Swiper
 new Swiper('.services-swiper', {
   loop: true,
   pagination: {
@@ -9,7 +8,8 @@ new Swiper('.services-swiper', {
   spaceBetween: 60,
 });
 
-// Reviews Swiper
+
+
 new Swiper('.reviews-swiper', {
   loop: true,
   pagination: {
