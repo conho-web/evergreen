@@ -2,6 +2,6 @@
 
 // window.onload = function() {
 //     gsap.to(headerContainer, {
-//         opa
+//         opacity: 1,
 //     });
 // }
