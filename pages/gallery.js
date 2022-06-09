@@ -30,9 +30,10 @@ buttons.forEach(btn => {
 
 
 
-function filterElements(nameClass) {
+function filterElements(nameClass, thisElement) {
     let block = document.getElementById(`${nameClass}`);
     let blocks = document.querySelectorAll(".photoshoot");
+    let arrows = document.querySelectorAll(".btn-arrow");
 
     blocks.forEach(element => {
         if (element.classList.contains("active")) {
@@ -41,6 +42,18 @@ function filterElements(nameClass) {
     });
 
     block.classList.add("active");
+
+    arrows.forEach(arrow => {
+        let checkArrow = thisElement.contains(arrow);
+
+        if (checkArrow == true) {
+            arrow.classList.add("active");
+        }
+
+        else {
+            arrow.classList.remove("active");
+        }
+    });
 }
 
 
@@ -49,7 +62,7 @@ let showMore = document.querySelectorAll('.show-more');
 let clmnMore = document.querySelectorAll('.clmn-more');
 
 showMore.forEach(btn => {
-    btn.onclick = function() {
+    btn.onclick = function () {
         photoshoot.forEach(photoshoot => {
             let contains = photoshoot.contains(btn);
 
