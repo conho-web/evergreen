@@ -2,10 +2,6 @@ html {
     background: var(--background);
 }
 
-section {
-    opacity: 0;
-}
-
 
 
 /* Main block */
