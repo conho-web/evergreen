@@ -1,7 +1,10 @@
-// let headerContainer = document.querySelector(".header_container");
+let headerContainer = document.querySelector(".header_container");
+let mainBlock = document.querySelector(".main_block");
 
-// window.onload = function() {
-//     gsap.to(headerContainer, {
-//         opacity: 1,
-//     });
-// }
+let array = [headerContainer, mainBlock];
+
+array.forEach(element => {
+    gsap.to(element, {
+        opacity: 1,
+    });
+});

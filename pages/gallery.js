@@ -13,7 +13,6 @@ buttons.forEach(btn => {
 
         if (check == true) {
             let textAnimate = gsap.to(text, {
-                letterSpacing: '2px',
                 duration: 0.5,
             });
 
